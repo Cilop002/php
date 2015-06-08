@@ -8,20 +8,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <style>
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
+      <?php
+session_start();
+if (empty($_SESSION["us"])) {
+	session_start();
+	session_destroy();
+	header("location: ../index.php");
+}
+else{
+
+}
+ ?>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -48,9 +59,9 @@
                 <span class="glyphicon icon-briefcase"></span></a></li>
               <li><a href="php/vistaContacto.php">Contactenos
                 <span class="glyphicon icon-envelop"></span></a></li>
-              <li><a href="php/frmRegistro.php" data-toggle="modal">Registro
+              <li><a href="php/frmRegistro.php" data-toggle="modal"><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
-              <li><a href="php/Session.php">Ingresar
+              <li><a href="Cerrarsesion.php">Cerrar Sesion
                 <span class="glyphicon icon-users"></span></a></li>
             </ul>
 
@@ -161,30 +172,12 @@
 
 
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="../js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
-        <script type="text/javascript">
-          $('#acept').click(function(){
-            var name = $('#nom');
-            var edad = $('#edad');
-            var tel = $('#tel');
-            var mail = $('#mail');
-            var pass = $('#pass');
-            var nac = $('#nac');
+        <script src="../js/main.js"></script>
 
-            var datos = "name="+name+"edad="+edad+"tel="+tel+"mail="+mail+"pass="+pass+"nac="+nac;
-            $.ajax({
-              type: "POST",
-              url: "../Controller/controlador.php",
-              data: datos
-            }).done(function(data){
-              document.message("Todo listo");
-            });
-          });
-        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>
