@@ -1,0 +1,38 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.nav-principal{
+	background-color: #123456;
+	border-radius: 0;
+}
+.link-personalizado{
+	color: white;
+	text-shadow:none;
+}
+.link-personalizado:hover{
+	color:#8e8e8e;
+}
+.nav-1>li>a{
+	color: white;
+	text-shadow:none;
+}
+.nav-1>li>a:hover{
+	background-color: #147f83;
+}
+.app-bar{
+	background: white;
+}
+.app-principal{
+	background-color: #123456;
+	color: white;
+	text-align: center;
+}
+.justificado{
+	text-align: justify;
+}
+.m{
+	color: black;
+}
