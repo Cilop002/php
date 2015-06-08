@@ -1,11 +1,59 @@
-<?php require_once '../Conexion/Conectar.php'; ?>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Session</title>
-</head>
-<body>
+<?php require '../Conexion/Conectar.php'; ?>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Project Renta de Vehiculos</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+			<nav class="navbar nav-principal navbar-fixed-top" role="navigation">
+
+
+	      <div class="container">
+	        <div class="navbar-header">
+
+	          <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+	            <span class="icon-bar app-bar"></span>
+	            <span class="icon-bar app-bar"></span>
+	            <span class="icon-bar app-bar"></span>
+	          </button>
+	          <a class="navbar-brand link-personalizado" href="../index.php">Proj Renta</a>
+	        </div>
+	          <div id="navbar" class="navbar-collapse collapse">
+	            <ul class="nav navbar-nav navbar-right nav-1">
+	              <li><a href="vistaVehiculos.php">Vechículos
+	                <span class="glyphicon icon-automobile"></span></a></li>
+	              <li><a href="vistaDescuentos.php">Descuentos
+	                <span class="glyphicon icon-gift"></span></a></li>
+	              <li><a href="vistaPaquetes.php">Paquetes
+	                <span class="glyphicon icon-briefcase"></span></a></li>
+	              <li><a href="vistaContact.php">Contactenos
+	                <span class="glyphicon icon-envelop"></span></a></li>
+	              <li><a href="#" data-toggle="modal">Registro
+	                <span class="glyphicon icon-user-plus"></span></a></li>
+	              <li><a href="frmIngreso.php">Ingresar
+	                <span class="glyphicon icon-users"></span></a></li>
+	            </ul>
+	          </div><!--/.navbar-collapse -->
+	        </div><!--/.navbar-collapse -->
+	    </nav>
 	<form id="signInForm" action="<?php echo $_SERVER['PHP_SELF']?>" name="signIn" method="post">
 			<input name="mail" type="text" placeholder="E-Mail">
 			<input name="pass" type="password" placeholder="Password">

@@ -51,15 +51,15 @@ else{
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
-              <li><a href="php/vistaVehiculos.php">Vechículos
+              <li><a href="vistaVehiculos.php">Vechículos
                 <span class="glyphicon icon-automobile"></span></a></li>
-              <li><a href="php/vistaDescuentos.php">Descuentos
+              <li><a href="vistaDescuentos.php">Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
-              <li><a href="php/vistaPaquetes.php">Paquetes
+              <li><a href="vistaPaquetes.php">Paquetes
                 <span class="glyphicon icon-briefcase"></span></a></li>
-              <li><a href="php/vistaContacto.php">Contactenos
+              <li><a href="vistaContacto.php">Contactenos
                 <span class="glyphicon icon-envelop"></span></a></li>
-              <li><a href="php/frmRegistro.php" data-toggle="modal"><?php echo $_SESSION['us'];?>
+              <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
               <li><a href="Cerrarsesion.php">Cerrar Sesion
                 <span class="glyphicon icon-users"></span></a></li>
@@ -116,19 +116,19 @@ else{
           </ol>
           <div class="carousel-inner">
             <div class="item active">
-              <img src="img/img1.jpg" alt="Imagen1" class="img2">
+              <img src="../img/img1.jpg" alt="Imagen1" class="img2">
             </div>
             <div class="item">
-              <img src="img/img2.jpg" alt="Imagen2" class="img2">
+              <img src="../img/img2.jpg" alt="Imagen2" class="img2">
             </div>
             <div class="item">
-              <img src="img/img3.jpg" alt="Imagen3" class="img2">
+              <img src="../img/img3.jpg" alt="Imagen3" class="img2">
             </div>
             <div class="item">
-              <img src="img/img4.jpg" alt="Imagen4" class="img2">
+              <img src="../img/img4.jpg" alt="Imagen4" class="img2">
             </div>
             <div class="item">
-              <img src="img/img5.jpg" alt="Imagen5" class="img2">
+              <img src="../img/img5.jpg" alt="Imagen5" class="img2">
             </div>
           </div>
         </div>

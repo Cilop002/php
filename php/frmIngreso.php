@@ -59,23 +59,11 @@
       <br>
       <div class="container">
         <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-12 justificado">
-            <center>
-        			<div class="formWrapper">
-        					<div class="formTitle">Entrar</div>
-        					<form id="signInForm" action="<?php echo $_SERVER['PHP_SELF']?>" name="signIn" method="post">
-        							<input name="us" type="text" placeholder="Username">
-        							<input name="pass" type="password" placeholder="Password">
-        							<input id="signInBtn" name="login" type="submit" value="Acceder" required/>
-        							<div class="smallText">
-        									<span>¿No estas registrado? <div class="button" id="signUpButton">Registrate Aquí</div></span>
-        									<span>¿Olvidaste tu password? <a href="">Recordar Password</a></span>
-        							</div>
-        					</form>
-        			</div>
-        		</center>
-          </div>
+        <form id="signInForm" action="<?php echo $_SERVER['PHP_SELF']?>" name="signIn" method="post">
+      			<input name="mail" type="text" placeholder="E-Mail">
+      			<input name="pass" type="password" placeholder="Password">
+      			<input name="login" type="submit" value="Acceder" required/>
+      	</form>
         </div>
 
         <hr>
@@ -106,23 +94,21 @@
   </html>
   <?php
   if (isset($_POST["login"])) {
-  	$usuario= htmlspecialchars($_POST["us"]);
+  	$correo= htmlspecialchars($_POST["mail"]);
   	$password = htmlspecialchars($_POST["pass"]);
+  	$type = 0;
   	$con = conexion();
-  	$sql = "select nombre from cliente";
-  	$sql2 = "select pass from cliente where name = '$usuario'";
-  	$sql3 = "select tipo from usuario where userName = '$usuario'";
-  	$user = $con->query($sql);
+  	$sql = "select correo from cliente";
+  	$sql2 = "select pass from cliente where correo = '$correo'";
+  	$mail = $con->query($sql);
   	$pass = $con->query($sql2);
-  	$tipo = $con->query($sql3);
-  	$ncampos1 = mysqli_num_fields($user);
+  	$ncampos1 = mysqli_num_fields($mail);
   	$ncampos2 = mysqli_num_fields($pass);
-  	$ncampos3 = mysqli_num_fields($tipo);
 
   	for ($i=0; $i < $ncampos1; $i++) {
-  		while ($fila = mysqli_fetch_row($user)) {
+  		while ($fila = mysqli_fetch_row($mail)) {
   			if ($r1 == false) {
-  				if ($usuario == $fila[$i]) {
+  				if ($correo == $fila[$i]) {
   					$r1 = true;
   				}
   				else {
@@ -144,19 +130,12 @@
   			}
   		}
   	}
-
-  	/*for ($i=0; $i < $ncampos2; $i++) {
-  		while ($fila3 = mysqli_fetch_row($tipo)) {
-  			$type = $fila3[$i];
-  		}
-  	}*/
-
-  	if ($r1 == true && $r2 == true ) {
+  	if ($r1 == true && $r2 == true) {
   		session_start();
-  		$_SESSION["us"] = $usuario;
-  		header("location: index.php");
+  		$_SESSION["us"] = $correo;
+  		header("location:vistaInicio.php");
   	}else{
-  		header("location: frmIngreso.php");
+
+  		header("location:Session.php");
   	}
   }
-   ?>

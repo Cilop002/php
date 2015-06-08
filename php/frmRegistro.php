@@ -46,11 +46,11 @@
                 <span class="glyphicon icon-gift"></span></a></li>
               <li><a href="vistaPaquetes.php">Paquetes
                 <span class="glyphicon icon-briefcase"></span></a></li>
-              <li><a href="vistaContact.php">Contactenos
+              <li><a href="vistaContacto.php">Contactenos
                 <span class="glyphicon icon-envelop"></span></a></li>
               <li><a href="#" data-toggle="modal">Registro
                 <span class="glyphicon icon-user-plus"></span></a></li>
-              <li><a href="frmIngreso.php">Ingresar
+              <li><a href="Session.php">Ingresar
                 <span class="glyphicon icon-users"></span></a></li>
             </ul>
           </div><!--/.navbar-collapse -->
