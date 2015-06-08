@@ -17,8 +17,9 @@ class DAOCliente {
         $mail = $obj -> getCorreo();
         $pass = $obj -> getPass();
         $nac = $obj -> getNacionalidad();
+        $tipo = $obj -> getTipo();
 
-        $sql = "insert into cliente values ('$id','$name','$edad','$tel','$mail','$pass','$nac')";
+        $sql = "insert into cliente values ('$id','$name','$edad','$tel','$mail','$pass','$nac',$tipo)";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{
@@ -48,8 +49,9 @@ class DAOCliente {
         $mail = $obj -> geCorreo();
         $pass = $obj -> getPass();
         $nac = $obj -> getNacionalidad();
+        $tipo = $obj -> getTipo();
 
-        $sql = "update cliente set nombre = '$name', edad = $edad, telefono = '$tel', correo = '$mail', pass = '$pass', nacionalidad = '$nac' where idCliente = '$id'";
+        $sql = "update cliente set nombre = '$name', edad = $edad, telefono = '$tel', correo = '$mail', pass = '$pass', nacionalidad = '$nac', tipo=$tipo where idCliente = '$id'";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{

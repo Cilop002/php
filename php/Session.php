@@ -69,10 +69,13 @@ if (isset($_POST["login"])) {
 	$con = conexion();
 	$sql = "select correo from cliente";
 	$sql2 = "select pass from cliente where correo = '$correo'";
+	$sql3 = "select tipo from cliente where correo = '$correo'";
 	$mail = $con->query($sql);
 	$pass = $con->query($sql2);
+	$tipo = $con->query($sql3);
 	$ncampos1 = mysqli_num_fields($mail);
 	$ncampos2 = mysqli_num_fields($pass);
+	$ncampos3 = mysqli_num_fields($tipo);
 
 	for ($i=0; $i < $ncampos1; $i++) {
 		while ($fila = mysqli_fetch_row($mail)) {
@@ -99,12 +102,22 @@ if (isset($_POST["login"])) {
 			}
 		}
 	}
-	if ($r1 == true && $r2 == true) {
+
+	for ($i=0; $i < $ncampos3; $i++) {
+  	while ($fila3 = mysqli_fetch_row($tipo)) {
+   		$type = $fila3[$i];
+  	}
+ 	}
+
+	if ($r1 == true && $r2 == true && $type==1) {
 		session_start();
 		$_SESSION["us"] = $correo;
 		header("location:vistaInicio.php");
+	}elseif ($r1 == true && $r2 == true && $type==2) {
+		session_start();
+		$_SESSION["us"] = $correo;
+		header("location:vistaAdmin.php");
 	}else{
-
 		header("location:Session.php");
 	}
 }

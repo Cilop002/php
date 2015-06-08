@@ -136,6 +136,7 @@ function cargar(){
   $clie -> setCorreo($_POST["mail"]);
   $clie -> setPass($_POST["pass"]);
   $clie -> setNacionalidad($_POST["nac"]);
+  $clie -> setTipo(1);
   return $clie;
 }
 if (isset($_POST["acept"])) {
@@ -144,6 +145,4 @@ if (isset($_POST["acept"])) {
 }elseif(isset($_POST["cancel"])){
   header("location: vistaContacto.php");
 }
-
-
 ?>
