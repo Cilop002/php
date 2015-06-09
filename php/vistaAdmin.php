@@ -51,13 +51,13 @@ else{
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
-              <li><a href="vistaVehiculos.php">Mantenimiento Vehículos
+              <li><a href="mantenimientoVehiculos.php">Mant. Vehículos
                 <span class="glyphicon icon-automobile"></span></a></li>
-              <li><a href="vistaDescuentos.php">Mantenimiento Descuentos
+              <li><a href="vistaDescuentos.php">Mant. Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
-              <li><a href="vistaPaquetes.php">Mantenimiento Paquetes
+              <li><a href="vistaPaquetes.php">Mant. Paquetes
                 <span class="glyphicon icon-briefcase"></span></a></li>
-              <li><a href="vistaContacto.php">Mantenimiento Usuarios
+              <li><a href="vistaContacto.php">Mant. Usuarios
                 <span class="glyphicon icon-envelop"></span></a></li>
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
