@@ -108,7 +108,8 @@ else{
           <center>
             <input type="submit" name="acept" value="Aceptar" class="btn btn-primary">
             <input type="submit" name="cancel" value="Cancelar" class="btn btn-default">
-          </center>
+            <a href="https://www.facebook.com/RentCarSV" class="btn btn-primary">Facebook<span class="glyphicon icon-facebook2"></span></a>
+        </center>
         </form>
       </div>
 
@@ -141,3 +142,11 @@ else{
         </script>-->
     </body>
 </html>
+<?php
+if (isset($_POST["acept"])) {
+  //$dao-> insertar(cargar());
+  //echo '<script language="javascript">location.href = "../index.php";</script>';
+}elseif(isset($_POST["cancel"])){
+  echo '<script language="javascript">location.href = "vistaInicio.php";</script>';
+}
+ ?>
