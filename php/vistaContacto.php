@@ -74,85 +74,42 @@ else{
           <h1>Proj Renta</h1>
           <p>Renta de vehículos en linea</p>
         <div>
-
-          <!--Modal de Ingreso-->
-          <div class="modal fade" id="modelIngreso">
-            <div class="modal-dialog">
-              <div class="modal-content m">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Ingresar</h4>
-                  </div>
-                  <div class="modal-body m">
-                    <form action="#" method="POST">
-                      <div class="form-group">
-                        <label for="user"></label>
-                        <input type="text" name="user" placeholder="E-Mail">
-                      </div>
-                      <div class="form-group">
-                        <label for="pass"></label>
-                        <input type="password" name="pass" placeholder="Password">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer m">
-                    <input type="text" class="btn btn-primary" value="Aceptar" name="acept1">
-                    <input type="text" class="btn btn-default" value="Cancelar" name="cancel1" data-dismiss="modal">
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <div class="carousel slide" id="miSlider" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#miSlider" data-slide-to="0" class="active"></li>
-            <li data-target="#miSlider" data-slide-to="1"></li>
-            <li data-target="#miSlider" data-slide-to="2"></li>
-            <li data-target="#miSlider" data-slide-to="3"></li>
-            <li data-target="#miSlider" data-slide-to="4"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="../img/img1.jpg" alt="Imagen1" class="img2">
-            </div>
-            <div class="item">
-              <img src="../img/img2.jpg" alt="Imagen2" class="img2">
-            </div>
-            <div class="item">
-              <img src="../img/img3.jpg" alt="Imagen3" class="img2">
-            </div>
-            <div class="item">
-              <img src="../img/img4.jpg" alt="Imagen4" class="img2">
-            </div>
-            <div class="item">
-              <img src="../img/img5.jpg" alt="Imagen5" class="img2">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
+        <form class="form-horizontal" method="POST">
+          <div class="form-group">
+            <label for="nombre"></label>
+            <input class="" type="text" name="nom" placeholder="Nombre">
+          <!--</div>-->
+          <!--<div class="form-group">-->
+            <label for="edad"></label>
+            <input class="" type="text" name="edad" placeholder="Edad">
+          <!--</div>-->
+          <!--<div class="form-group">-->
+            <label for="telefono"></label>
+            <input class="" type="text" name="tel" placeholder="Teléfono">
+          <!--</div>-->
+          <!--<div class="form-group">-->
+            <label for="correo"></label>
+            <input class="" type="text" name="mail" placeholder="E-mail">
+          <!--</div>-->
+          <!--<div class="form-group">-->
+            <label for="nacionalidad"></label>
+            <input class="" type="text" name="nac" placeholder="Nacionalidad">
+          <!--</div>-->
+          <!--<div class="form-group">-->
+            <label for="pass"></label>
+            <center><textarea rows="4" cols="33" placeholder="Hola......"></textarea></center>
+
+          </div>
+          <center>
+            <input type="submit" name="acept" value="Aceptar" class="btn btn-primary">
+            <input type="submit" name="cancel" value="Cancelar" class="btn btn-default">
+          </center>
+        </form>
       </div>
 
       <hr>
@@ -162,12 +119,6 @@ else{
       </footer>
 
 
-      <a href="#miSlider" class="carousel-control left" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a href="#miSlider" class="carousel-control right" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
 
 
 
