@@ -51,8 +51,6 @@ else{
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
-              <li><a href="#">Mant. Vehículos
-                <span class="glyphicon icon-automobile"></span></a></li>
               <li><a href="mantenimientoDescuentos.php">Mant. Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
               <li><a href="mantenimientoPaquetes.php">Mant. Paquetes

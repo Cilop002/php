@@ -24,7 +24,7 @@ class DAODescuento {
 
         }
     public function eliminar($obj){
-        $c = Conexion::conexion();
+        $c = conexion();
         $id = $obj -> getIdDescuento();
         $sql = "delete from descuento where idDescuento = $id";
         if (!$c -> query($sql)){
@@ -49,7 +49,7 @@ class DAODescuento {
         mysqli_close($c);
     }
     public function listar(){
-		$c = conectar();
+		$c = conexion();
 		$sql="select * from descuento";
 		$resultado = $c->query($sql);
 		//mostrar resultado bonito
@@ -76,7 +76,7 @@ class DAODescuento {
 		print "</tr>";
 	}
         public function buscar($obj){
-		$c=conectar();
+		$c=conexion();
 		$sql="select * from descuento where idDescuento = $obj";
 		$resultado = $c->query($sql);
 		if(!$c->query($sql)){

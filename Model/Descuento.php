@@ -13,10 +13,10 @@ class Descuento{
   public function getCantidad(){
     return $this->_cantidad;
   }
-  public function setIdDescuento(){
+  public function setIdDescuento($_idDescuento){
     $this->_idDescuento=$_idDescuento;
   }
-  public function setCantidad(){
+  public function setCantidad($_cantidad){
     $this->_cantidad=$_cantidad;
   }
 

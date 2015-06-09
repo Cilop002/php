@@ -24,7 +24,7 @@ class DAOPaquete{
 
         }
     public function eliminar($obj){
-        $c = Conexion::conexion();
+        $c = conexion();
         $id = $obj -> getIdPaquete();
         $sql = "delete from paquete where idPaquete = $id";
         if (!$c -> query($sql)){
@@ -49,7 +49,7 @@ class DAOPaquete{
         mysqli_close($c);
     }
     public function listar(){
-		$c = conectar();
+		$c = conexion();
 		$sql="select * from paquete";
 		$resultado = $c->query($sql);
 		//mostrar resultado bonito
@@ -76,7 +76,7 @@ class DAOPaquete{
 		print "</tr>";
 	}
         public function buscar($obj){
-		$c=conectar();
+		$c=conexion();
 		$sql="select * from paquete where idPaquete = $obj";
 		$resultado = $c->query($sql);
 		if(!$c->query($sql)){
