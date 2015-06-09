@@ -201,61 +201,62 @@ else{
         <div class="col-md-12 justificado">
           <h2>BMW M3</h2>
           <img src="../img/img11.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El BMW M3 es la versión deportiva del BMW Serie 3, producido por el fabricante de automóviles bávaro BMW.
+            El primer M3 fue basado en el serie E30 que se comercializó en el año 1986, y desde entonces cada Serie 3 tuvo su versión M. A finales del 2007 se lanzó el M3 E92, con una potencia estimada en 420 CV. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-12 justificado">
           <h2>Dodge Charger</h2>
           <img src="../img/img12.jpeg" alt="" class="img5"/>
-          <p>Donec sed odio dui. Cras odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>El Dodge Charger es un automóvil estadounidense producido por la división Dodge de Chrysler. A la fecha, existen muchos y diferentes vehículos de Dodge, en tres diferentes plataformas, conformando la línea Charger. Este nombre es asociado generalmente con un modelo de rendimiento en la gama Dodge, sin embargo, también se ha llevado a un Hatchback. un Sedan y a un Coupe de lujo personal.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Jaguar XF</h2>
           <img src="../img/img13.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Jaguar XF es un automóvil de turismo del [[segmento F] del fabricante británico de automóviles Jaguar Cars. Sustituye al Jaguar S-Type, que se dejó de producir en 2007 en el Reino Unido y 2008 en otros mercados. La versión de producción del XF debutó en el Salón del Automóvil de Frankfurt de 2007, y se comenzó a entregar a los clientes en marzo de 2008.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Chevrolet Impala</h2>
           <img src="../img/img14.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Chevrolet Impala es un automóvil producido por el fabricante estadounidense Chevrolet desde 1958 para el mercado norteamericano. El primer Impala fue presentado en la exhibición Motorama de la General Motors en 1956. Estas versiones mostraban su nueva línea de vehículos para el año próximo. En 1956 el Motorama Car Show paso por Nueva York, Miami, Los Ángeles, San Francisco, y Boston.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-12 justificado">
           <h2>Honda Civic</h2>
           <img src="../img/img15.jpg" alt="" class="img5"/>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>El Honda Civic es un automóvil del segmento C fabricado por la empresa japonesa Honda Motor Co., Ltd. Después de haber pasado por varios cambios generacionales (actualmente van por la novena), el Civic ha crecido en tamaño, colocándose entre el Honda Fit y el Honda Accord. Todas las versiones hasta el momento poseen un motor delantero transversal de 4 cilindros, tracción delantera y numerosas carrocerías, entre ellas el sedán, coupé, hatchback y Aerodeck.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Nissan Sentra</h2>
           <img src="../img/img16.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Nissan Sentra (deriva de Kentron, una palabra en griego que significa centro) («Sunny» en Japón y Panamá; «Tsuru» en México hasta su tercera generación), es un automóvil del segmento C producido por el fabricante japonés de automóviles Nissan desde 1966.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Ford Mustang</h2>
           <img src="../img/img17.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Ford Mustang es un muscle car de la casa estadounidense Ford. Se basó inicialmente en la segunda generación del modelo estadounidense Ford Falcon, un vehículo del segmento C.1 Fue introducido al mercado el 17 de abril del 1964.2 El Mustang de 1965 fue el modelo más exitoso desde el Ford A.,3 así mismo Mustang es la tercera saga de Ford más antigua, cuyos modelos han sufrido numerosas transformaciones hasta llegar a la actual sexta generación.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-12 justificado">
           <h2>Infiniti Q50</h2>
           <img src="../img/img18.jpg" alt="" class="img5"/>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>El Infiniti Q50 es el sucesor del Infiniti G para la variante sedán. Se estrenó en el Salón del Automóvil de Detroit de 2013 y se comenzó a vender en el tercer trimestre de ese año. Los motores de gasolina son un cuatro cilindros en línea de 2,0 litros y (214 CV, y un V6 de 3,7 litros y 333 CV. También se ofrece un híbrido eléctrico-gasolina, que eroga 364 CV. En tanto, el Diesel es un cuatro cilindros de 2,2 litros y 170 CV.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Kia Forte</h2>
           <img src="../img/img19.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Kia Cerato, Spectra o Forte es un automóvil de turismo del segmento C producido por el fabricante surcoreano Kia Motors desde el año 2004. Es un cinco plazas con motor delantero transversal y tracción delantera, que sustituye al Kia Shuma/Sephia. Algunos de los rivales del Cerato son el Honda Civic, el Nissan Tiida, el Mazda 3, el Mitsubishi Lancer, el Subaru Impreza y el Toyota Corolla.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Volkswagen Jetta</h2>
           <img src="../img/img20.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Volkswagen Jetta es un automóvil del segmento C, producido por el fabricante alemán Volkswagen desde 1979. El Jetta existe en versiones sedán y familiar; es básicamente una variante del Volkswagen Golf, que es un hatchback (aunque algunos familiares han llevado el nombre "Golf Variant").</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
 
