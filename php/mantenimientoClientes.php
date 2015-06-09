@@ -51,7 +51,7 @@ else{
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
-              <li><a href="#">Mant. Vehículos
+              <li><a href="mantenimientoVehiculos.php">Mant. Vehículos
                 <span class="glyphicon icon-automobile"></span></a></li>
               <li><a href="vistaDescuentos.php">Mant. Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
@@ -82,39 +82,43 @@ else{
         <table align="center">
           <tr>
             <td>Busqueda por Nombre:</td>
-            <td><input class="form-control" type="text" name="$busqueda" placeholder="Ejemplo: Toyota"></td>
+            <td><input class="form-control" type="text" name="$busqueda"></td>
             <td><input type="submit" name="buscar" value="Buscar" class="btn btn-primary"></td>
           </tr>
         </table>
         <br><br>
         <table align="center">
           <tr>
+            <td><b><font size="4">Id Cliente:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="id" ></td>
+          </tr>
+          <tr>
             <td><b><font size="4">Nombre:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="nom" placeholder="Ejemplo: P000-000"></td>
+            <td><input class="form-control" type="text" name="nom" ></td>
           </tr>
           <tr>
             <td><b><font size="4">Edad:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="edad" placeholder="Ejemplo: Toyota"></td>
+            <td><input class="form-control" type="text" name="edad" ></td>
           </tr>
           <tr>
             <td><b><font size="4">Telefono:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="tel" placeholder="Ejemplo: Corolla"></td>
+            <td><input class="form-control" type="text" name="tel" ></td>
           </tr>
           <tr>
             <td><b><font size="4">Correo:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="mail" placeholder="Ejemplo: 2012"></td>
+            <td><input class="form-control" type="text" name="mail" ></td>
           </tr>
           <tr>
             <td><b><font size="4">Password:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="password" name="pass" placeholder="Ejemplo: Azul"></td>
+            <td><input class="form-control" type="password" name="pass" ></td>
           </tr>
           <tr>
             <td><b><font size="4">Nacionalidad:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="nac" placeholder="Ejemplo: 1"></td>
+            <td><input class="form-control" type="text" name="nac" ></td>
           </tr>
           <tr>
             <td><b><font size="4">Tipo:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="tipo" placeholder="Ejemplo: 1"></td>
+            <td><input class="form-control" type="text" name="tipo" ></td>
           </tr>
         </table>
         <br>
@@ -138,7 +142,7 @@ else{
 
       function cargar(){
       	$client = new Cliente();
-        $client -> setNombre($client->getNombre());
+        $client -> setIdCliente($_POST["id"]);
         $client -> setNombre($_POST["nom"]);
         $client -> setEdad($_POST["edad"]);
         $client -> setTelefono($_POST["tel"]);

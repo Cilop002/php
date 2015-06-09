@@ -29,8 +29,8 @@ class DAOCliente {
         mysqli_close($c);
         }
     public function eliminar($obj){
-        $c = Conexion::conexion();
-        $id = $obj -> getIdEquipo();
+        $c = conexion();
+        $id = $obj -> getIdCliente();
         $sql = "delete from cliente where idCliente = $id";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
@@ -50,7 +50,7 @@ class DAOCliente {
         $nac = $obj -> getNacionalidad();
         $tipo = $obj -> getTipo();
 
-        $sql = "update cliente set nombre = '$name', edad = $edad, telefono = '$tel', correo = '$mail', pass = '$pass', nacionalidad = '$nac', tipo=$tipo where idCliente = '$id'";
+        $sql = "update cliente set nombre = '$name', edad = '$edad', telefono = '$tel', correo = '$mail', pass = '$pass', nacionalidad = '$nac', tipo=$tipo where idCliente = '$id'";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{
