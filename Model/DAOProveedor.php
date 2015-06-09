@@ -16,7 +16,7 @@ class DAOProveedor{
         $rep = $obj -> getRepresentante();
         $mail = $obj -> getCorreo();
 
-        $sql = "insert into proveedor values ('$id','$nom','$tel','$rep','$mail');";
+        $sql = "insert into proveedor values ($id,'$nom','$tel','$rep','$mail');";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{
@@ -29,7 +29,7 @@ class DAOProveedor{
     public function eliminar($obj){
         $c = conexion();
         $id = $obj -> getIdProv();
-        $sql = "delete from proveedor where idProv = '$id'";
+        $sql = "delete from proveedor where idProv=$id";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{

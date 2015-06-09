@@ -57,13 +57,9 @@ else{
                 <span class="glyphicon icon-gift"></span></a></li>
               <li><a href="mantenimientoPaquetes.php">Mant. Paquetes
                 <span class="glyphicon icon-briefcase"></span></a></li>
-<<<<<<< HEAD
-=======
-                <li><a href="#">Mant. Clientes
-                  <span class="glyphicon icon-envelop"></span></a></li>
-                  <li><a href="mantenimientoProveedor.php">Mant. Proveedor
-                    <span class="glyphicon icon-user"></span></a></li>
->>>>>>> origin/master
+                <li><a href="mantenimientoProveedor.php">Mant. Proveedores
+                  <span class="glyphicon icon-user"></span></a></li>
+
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
               <li><a href="Cerrarsesion.php">Cerrar Sesion

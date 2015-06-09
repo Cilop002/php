@@ -47,7 +47,7 @@ else{
             <span class="icon-bar app-bar"></span>
             <span class="icon-bar app-bar"></span>
           </button>
-          <a class="navbar-brand link-personalizado" href="#">Proj Renta</a>
+          <a class="navbar-brand link-personalizado" href="vistaAdmin.php">Proj Renta</a>
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
@@ -55,15 +55,11 @@ else{
                 <span class="glyphicon icon-automobile"></span></a></li>
               <li><a href="mantenimientoDescuentos.php">Mant. Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
-              <li><a href="mantenimientoClientes.php">Mant. Clientes
-                <span class="glyphicon icon-briefcase"></span></a></li>
-<<<<<<< HEAD
-=======
                 <li><a href="mantenimientoClientes.php">Mant. Clientes
                   <span class="glyphicon icon-envelop"></span></a></li>
-                  <li><a href="mantenimientoProveedor.php">Mant. Proveedor
+                  <li><a href="mantenimientoProveedor.php">Mant. Proveedores
                     <span class="glyphicon icon-user"></span></a></li>
->>>>>>> origin/master
+
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
               <li><a href="Cerrarsesion.php">Cerrar Sesion
