@@ -141,61 +141,61 @@ else{
         <div class="col-md-12 justificado">
           <h2>Chevrolet Cruze</h2>
           <img src="../img/img1.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>Descubre el Chevrolet Cruze, el carro sedán de parrilla frontal doble y faros alargados que posee toda la tecnología, comodidad y seguridad que necesitas.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Mitsubishi Lancer Evo IX</h2>
           <img src="../img/img2.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Mitsubishi Lancer es un automóvil de turismo del segmento C producido por el fabricante japonés Mitsubishi Motors desde el año 1973 hasta 2012</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-12 justificado">
           <h2>Aston Martin DB9</h2>
           <img src="../img/img3.jpg" alt="" class="img5"/>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p> El Aston Martin DB9 es un automóvil de gran turismo,usa un motor gasolina V12 de 6.0 litros de cilindrada y 450 CV de potencia máxima</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
-          <h2>Koenigsegg</h2>
+          <h2>Koenigsegg Agera</h2>
           <img src="../img/img4.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Koenigsegg Agera R es un automóvil superdeportivo creado por la casa automotriz sueca Koenigsegg.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Shelby GT500</h2>
           <img src="../img/img5.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>Este es precisamente el clásico Ford Shelby GT500 con su motor de aluminio V8 de 5.8 litros que genera 662 caballos de fuerza</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-12 justificado">
           <h2>Acura NSX</h2>
           <img src="../img/img6.jpg" alt="" class="img5"/>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>El NSX es un coupé de dos pueras y dos plazas que Acura pondrá a la venta en 2016. Tiene un sistema de impulsión híbrido</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Mitsubishi Lancer Evo X</h2>
           <img src="../img/img7.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El nuevo Mitsubishi Lancer Evo X presenta un nuevo motor turbo de 300 cv, tracción integral y transmisión automática robotizada.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Lexus IS300H</h2>
           <img src="../img/img8.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El nuevo IS 300h es el primer Lexus en el que la batería se ha instalado debajo del suelo</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-12 justificado">
           <h2>Opel Astra</h2>
           <img src="../img/img9.jpg" alt="" class="img5"/>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>Con su dinámico y escultural diseño, el Opel Astra 5 puertas lleva más lejos su rotundo éxito</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
           <h2>Porsche Cayman S</h2>
           <img src="../img/img10.jpg" alt="" class="img5"/>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>El Porsche Cayman es un automóvil deportivo de dos asientos con tracción trasera y motor en posición central producido por Porsche AG de Alemania.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
@@ -207,7 +207,7 @@ else{
         <div class="col-md-12 justificado">
           <h2>Dodge Charger</h2>
           <img src="../img/img12.jpeg" alt="" class="img5"/>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>Donec sed odio dui. Cras odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-12 justificado">
