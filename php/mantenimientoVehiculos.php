@@ -47,18 +47,18 @@ else{
             <span class="icon-bar app-bar"></span>
             <span class="icon-bar app-bar"></span>
           </button>
-          <a class="navbar-brand link-personalizado" href="#">Proj Renta</a>
+          <a class="navbar-brand link-personalizado" href="vistaAdmin.php">Proj Renta</a>
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
               <li><a href="#">Mant. Vehículos
                 <span class="glyphicon icon-automobile"></span></a></li>
-              <li><a href="vistaDescuentos.php">Mant. Descuentos
+              <li><a href="mantenimientoDescuentos.php">Mant. Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
-              <li><a href="vistaPaquetes.php">Mant. Paquetes
+              <li><a href="mantenimientoPaquetes.php">Mant. Paquetes
                 <span class="glyphicon icon-briefcase"></span></a></li>
-              <li><a href="vistaContacto.php">Mant. Usuarios
-                <span class="glyphicon icon-envelop"></span></a></li>
+                <li><a href="mantenimientoClientes.php">Mant. Clientes
+                  <span class="glyphicon icon-envelop"></span></a></li>
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
               <li><a href="Cerrarsesion.php">Cerrar Sesion
@@ -74,6 +74,7 @@ else{
           <h1>Proj Renta</h1>
           <p>Renta de vehículos en linea</p>
         <div>
+      </section>
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
     <div class="container">
@@ -83,7 +84,7 @@ else{
           <tr>
             <td>Busqueda por Marca:</td>
             <td><input class="form-control" type="text" name="$busqueda" placeholder="Ejemplo: Toyota"></td>
-            <td><input type="submit" name="buscar" value="Buscar" class="btn btn-primary"></td>
+            <td><input type="submit" name="buscar" value="Buscar" class="btn1"></td>
           </tr>
         </table>
         <br><br>
@@ -116,9 +117,9 @@ else{
         <br>
         <table align="center">
           <tr>
-            <td><input type="submit" name="add" value="Agregar" class="btn btn-primary"></td>
-            <td><input type="submit" name="del" value="Eliminar" class="btn btn-primary"></td>
-            <td><input type="submit" name="mod" value="Modificar" class="btn btn-primary"></td>
+            <td><input type="submit" name="add" value="Agregar" class="btn1"></td>
+            <td><input type="submit" name="del" value="Eliminar" class="btn1"></td>
+            <td><input type="submit" name="mod" value="Modificar" class="btn1"></td>
           </tr>
         </table>
       </form>
