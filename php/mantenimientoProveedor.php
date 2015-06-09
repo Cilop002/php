@@ -47,25 +47,20 @@ else{
             <span class="icon-bar app-bar"></span>
             <span class="icon-bar app-bar"></span>
           </button>
-          <a class="navbar-brand link-personalizado" href="#">Proj Renta</a>
+          <a class="navbar-brand link-personalizado" href="vistaAdmin.php">Proj Renta</a>
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
               <li><a href="mantenimientoVehiculos.php">Mant. Vehículos
                 <span class="glyphicon icon-automobile"></span></a></li>
-              <li><a href="mantenimientoDescuentos">Mant. Descuentos
+              <li><a href="mantenimientoDescuentos.php">Mant. Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
               <li><a href="mantenimientoPaquetes.php">Mant. Paquetes
                 <span class="glyphicon icon-briefcase"></span></a></li>
                 <li><a href="mantenimientoClientes.php">Mant. Clientes
                   <span class="glyphicon icon-envelop"></span></a></li>
-<<<<<<< HEAD
-                  <li><a href="mantenimientoProveedores.php">Mant. Proveedores
-                    <span class="glyphicon icon-envelop"></span></a></li>
-=======
-                  <li><a href="mantenimientoProveedor.php">Mant. Proveedores
+                  <li><a href="#">Mant. Proveedores
                     <span class="glyphicon icon-user"></span></a></li>
->>>>>>> origin/master
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
               <li><a href="Cerrarsesion.php">Cerrar Sesion
@@ -81,70 +76,95 @@ else{
           <h1>Proj Renta</h1>
           <p>Renta de vehículos en linea</p>
         <div>
-
-          <!--Modal de Ingreso-->
-          <div class="modal fade" id="modelIngreso">
-            <div class="modal-dialog">
-              <div class="modal-content m">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Ingresar</h4>
-                  </div>
-                  <div class="modal-body m">
-                    <form action="#" method="POST">
-                      <div class="form-group">
-                        <label for="user"></label>
-                        <input type="text" name="user" placeholder="E-Mail">
-                      </div>
-                      <div class="form-group">
-                        <label for="pass"></label>
-                        <input type="password" name="pass" placeholder="Password">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer m">
-                    <input type="text" class="btn btn-primary" value="Aceptar" name="acept1">
-                    <input type="text" class="btn btn-default" value="Cancelar" name="cancel1" data-dismiss="modal">
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
+      <form action="#" method="POST">
+        <table align="center">
+          <tr>
+            <td>Busqueda por Id:</td>
+            <td><input class="form-control" type="text" name="$busqueda" placeholder="Ejemplo: Toyota"></td>
+            <td><input type="submit" name="buscar" value="Buscar" class="btn1"></td>
+          </tr>
+        </table>
+        <br><br>
+        <table align="center">
+          <tr>
+            <td><b><font size="4">Id Proveedor:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="idProv" placeholder="Ejemplo: 1"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Nombre:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="nom" placeholder="Ejemplo: BRBJ"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Telefono:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="tel" placeholder="Ejemplo: 2222-2222"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Representante:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="repre" placeholder="Ejemplo: Juan Pérez"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Correo:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="mail" placeholder="Ejemplo: example@server.com"></td>
+          </tr>
+        </table>
+        <br>
+        <table align="center">
+          <tr>
+            <td><input type="submit" name="add" value="Agregar" class="btn1"></td>
+            <td><input type="submit" name="del" value="Eliminar" class="btn1"></td>
+            <td><input type="submit" name="mod" value="Modificar" class="btn1"></td>
+          </tr>
+        </table>
+      </form>
       </div>
+
+      <hr>
+
+      <?php
+      //creacion del  Data Acces Object
+      require '../Model/DAOProveedor.php';
+      $dao = new DAOProveedor();
+      $dao->listar();
+
+      function cargar(){
+      	$veh = new Proveedor();
+        $veh -> setIdProv($_POST["idProv"]);
+        $veh -> setNombre($_POST["nom"]);
+        $veh -> setTelefono($_POST["tel"]);
+        $veh -> setRepresentante($_POST["repre"]);
+        $veh -> setCorreo($_POST["mail"]);
+
+      	return $veh;
+      }
+      //que boton? si modificar eliminar o ingresar
+      if(isset($_REQUEST['add'])){
+      	$dao->insertar(cargar());
+        echo '<script language="javascript">location.href = "mantenimientoProveedor.php";</script>';
+      }
+      if(isset($_REQUEST['del'])){
+      	$dao->eliminar(cargar());
+        echo '<script language="javascript">location.href = "mantenimientoProveedor.php";</script>';
+      }
+      if(isset($_REQUEST['mod'])){
+      	$dao->modificar(cargar());
+        echo '<script language="javascript">location.href = "mantenimientoProveedor.php";</script>';
+      }
+      if(isset($_REQUEST['buscar'])){
+      	$dao->buscar($_POST["buscar"]);
+      }
+
+      ?>
 
       <hr>
 
       <footer>
         <p>&copy; BRBJ S.A. de C.V. 2015</p>
       </footer>
-
-
-      <a href="#miSlider" class="carousel-control left" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a href="#miSlider" class="carousel-control right" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
 
 
 

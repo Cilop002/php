@@ -57,6 +57,8 @@ else{
                 <span class="glyphicon icon-briefcase"></span></a></li>
                 <li><a href="mantenimientoClientes.php">Mant. Clientes
                   <span class="glyphicon icon-envelop"></span></a></li>
+                  <li><a href="mantenimientoProveedor.php">Mant. Proveedor
+                    <span class="glyphicon icon-user"></span></a></li>
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
               <li><a href="Cerrarsesion.php">Cerrar Sesion
