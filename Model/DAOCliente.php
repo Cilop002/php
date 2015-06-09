@@ -27,7 +27,6 @@ class DAOCliente {
         }
 
         mysqli_close($c);
-
         }
     public function eliminar($obj){
         $c = Conexion::conexion();

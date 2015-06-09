@@ -30,7 +30,7 @@ class DAOVehiculo{
     public function eliminar($obj){
         $c = conexion();
         $placa = $obj -> getNumPlaca();
-        $sql = "delete from Vehiculo where numPlaca=$placa";
+        $sql = "delete from Vehiculo where numPlaca='$placa'";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{

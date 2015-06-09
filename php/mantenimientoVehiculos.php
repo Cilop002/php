@@ -145,15 +145,15 @@ else{
       //que boton? si modificar eliminar o ingresar
       if(isset($_REQUEST['add'])){
       	$dao->insertar(cargar());
-        header("location:mantenimientoVehiculos.php");
+        echo '<script language="javascript">location.href = "mantenimientoVehiculos.php";</script>';
       }
       if(isset($_REQUEST['del'])){
       	$dao->eliminar(cargar());
-        header("location:mantenimientoVehiculos.php");
+        echo '<script language="javascript">location.href = "mantenimientoVehiculos.php";</script>';
       }
       if(isset($_REQUEST['mod'])){
       	$dao->modificar(cargar());
-        header("location:mantenimientoVehiculos.php");
+        echo '<script language="javascript">location.href = "mantenimientoVehiculos.php";</script>';
       }
       if(isset($_REQUEST['buscar'])){
       	$dao->buscar($_POST["buscar"]);

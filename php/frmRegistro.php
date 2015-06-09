@@ -1,4 +1,5 @@
-<!doctype html>
+<?php require '../Model/DAOCliente.php'; ?>
+<!DOCTYPE html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -123,9 +124,6 @@
     </body>
 </html>
 <?php
-
-require '../Model/DAOCliente.php';
-
 $dao = new DAOCliente();
 function cargar(){
   $clie = new Cliente();
@@ -141,8 +139,8 @@ function cargar(){
 }
 if (isset($_POST["acept"])) {
   $dao-> insertar(cargar());
-  header("location: ../index.php");
+  echo '<script language="javascript">location.href = "../index.php";</script>';
 }elseif(isset($_POST["cancel"])){
-  header("location: vistaContacto.php");
+  echo '<script language="javascript">location.href = "../index.php";</script>';
 }
 ?>
