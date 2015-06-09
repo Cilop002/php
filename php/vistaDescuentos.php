@@ -47,7 +47,7 @@ else{
             <span class="icon-bar app-bar"></span>
             <span class="icon-bar app-bar"></span>
           </button>
-          <a class="navbar-brand link-personalizado" href="#">Proj Renta</a>
+          <a class="navbar-brand link-personalizado" href="vistaInicio.php">Proj Renta</a>
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">

@@ -36,3 +36,27 @@
 .m{
 	color: black;
 }
+input{
+		margin-left: auto;
+		margin-right: auto;
+    display: block;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type=submit]{
+		margin-left: auto;
+		margin-right: auto;
+    padding: 10px;
+    width: 300px;
+}
+.btn1{
+	padding: 5px !important;
+	width: 150px !important;
+	background-color: #123456;
+	color: white;
+}
+.img5{
+	width: 250px;
+	height: 180px;
+}

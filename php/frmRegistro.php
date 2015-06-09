@@ -57,6 +57,13 @@
           </div><!--/.navbar-collapse -->
         </div><!--/.navbar-collapse -->
     </nav>
+    <section class="app-principal">
+      <div class="container">
+        <h1>Proj Renta</h1>
+        <p>Renta de vehículos en linea</p>
+      <div>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+    </section>
     <br>
     <div class="container">
       <!-- Example row of columns -->
@@ -65,34 +72,36 @@
           <form class="form-horizontal" method="POST">
             <div class="form-group">
               <label for="nombre"></label>
-              <input class="form-control" type="text" name="nom" placeholder="Nombre">
-            </div>
-            <div class="form-group">
+              <input class="" type="text" name="nom" placeholder="Nombre">
+            <!--</div>-->
+            <!--<div class="form-group">-->
               <label for="edad"></label>
-              <input class="form-control" type="text" name="edad" placeholder="Edad">
-            </div>
-            <div class="form-group">
+              <input class="" type="text" name="edad" placeholder="Edad">
+            <!--</div>-->
+            <!--<div class="form-group">-->
               <label for="telefono"></label>
-              <input class="form-control" type="text" name="tel" placeholder="Teléfono">
-            </div>
-            <div class="form-group">
+              <input class="" type="text" name="tel" placeholder="Teléfono">
+            <!--</div>-->
+            <!--<div class="form-group">-->
               <label for="correo"></label>
-              <input class="form-control" type="text" name="mail" placeholder="E-mail">
-            </div>
-            <div class="form-group">
+              <input class="" type="text" name="mail" placeholder="E-mail">
+            <!--</div>-->
+            <!--<div class="form-group">-->
               <label for="nacionalidad"></label>
-              <input class="form-control" type="text" name="nac" placeholder="Nacionalidad">
-            </div>
-            <div class="form-group">
+              <input class="" type="text" name="nac" placeholder="Nacionalidad">
+            <!--</div>-->
+            <!--<div class="form-group">-->
               <label for="pass"></label>
-              <input class="form-control" type="password" name="pass" placeholder="Password">
-            </div>
-            <div class="form-group">
+              <input class="" type="password" name="pass" placeholder="Password">
+            <!--</div>-->
+            <!--<div class="form-group">-->
               <label for="con-pass"></label>
-              <input class="form-control" type="password" name="con-pass" placeholder="Confirm Password">
+              <input class="" type="password" name="con-pass" placeholder="Confirm Password">
             </div>
-            <input type="submit" name="acept" value="Aceptar" class="btn btn-primary">
-            <input type="submit" name="cancel" value="Cancelar" class="btn btn-default">
+            <center>
+              <input type="submit" name="acept" value="Aceptar" class="btn btn-primary">
+              <input type="submit" name="cancel" value="Cancelar" class="btn btn-default">
+            </center>
           </form>
         </div>
       </div>

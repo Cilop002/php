@@ -54,12 +54,23 @@
 	          </div><!--/.navbar-collapse -->
 	        </div><!--/.navbar-collapse -->
 	    </nav>
+      <section class="app-principal">
+        <div class="container">
+          <h1>Proj Renta</h1>
+          <p>Renta de vehículos en linea</p>
+        <div>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+      </section>
+      <br>
 	<form id="signInForm" action="<?php echo $_SERVER['PHP_SELF']?>" name="signIn" method="post">
 			<input name="mail" type="text" placeholder="E-Mail">
 			<input name="pass" type="password" placeholder="Password">
 			<input name="login" type="submit" value="Acceder" required/>
 	</form>
 </body>
+<footer>
+  <p>&copy; BRBJ S.A. de C.V. 2015</p>
+</footer>
 </html>
 <?php
 if (isset($_POST["login"])) {
