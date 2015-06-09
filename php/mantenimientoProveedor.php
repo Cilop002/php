@@ -55,11 +55,11 @@ else{
                 <span class="glyphicon icon-automobile"></span></a></li>
               <li><a href="mantenimientoDescuentos.php">Mant. Descuentos
                 <span class="glyphicon icon-gift"></span></a></li>
-              <li><a href="#">Mant. Paquetes
+              <li><a href="mantenimientoPaquetes.php">Mant. Paquetes
                 <span class="glyphicon icon-briefcase"></span></a></li>
                 <li><a href="mantenimientoClientes.php">Mant. Clientes
                   <span class="glyphicon icon-envelop"></span></a></li>
-                  <li><a href="mantenimientoProveedor.php">Mant. Proveedor
+                  <li><a href="#">Mant. Proveedores
                     <span class="glyphicon icon-user"></span></a></li>
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
@@ -84,7 +84,7 @@ else{
       <form action="#" method="POST">
         <table align="center">
           <tr>
-            <td>Busqueda por Marca:</td>
+            <td>Busqueda por Id:</td>
             <td><input class="form-control" type="text" name="$busqueda" placeholder="Ejemplo: Toyota"></td>
             <td><input type="submit" name="buscar" value="Buscar" class="btn1"></td>
           </tr>
@@ -92,28 +92,24 @@ else{
         <br><br>
         <table align="center">
           <tr>
-            <td><b><font size="4">Numero de Placa:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="numPlaca" placeholder="Ejemplo: P000-000"></td>
-          </tr>
-          <tr>
-            <td><b><font size="4">Marca:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="marca" placeholder="Ejemplo: Toyota"></td>
-          </tr>
-          <tr>
-            <td><b><font size="4">Modelo:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="modelo" placeholder="Ejemplo: Corolla"></td>
-          </tr>
-          <tr>
-            <td><b><font size="4">Año:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="anio" placeholder="Ejemplo: 2012"></td>
-          </tr>
-          <tr>
-            <td><b><font size="4">Color:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="color" placeholder="Ejemplo: Azul"></td>
-          </tr>
-          <tr>
             <td><b><font size="4">Id Proveedor:&nbsp;&nbsp;</font></b></td>
-            <td><input class="form-control" type="text" name="idP" placeholder="Ejemplo: 1"></td>
+            <td><input class="form-control" type="text" name="idProv" placeholder="Ejemplo: 1"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Nombre:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="nom" placeholder="Ejemplo: BRBJ"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Telefono:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="tel" placeholder="Ejemplo: 2222-2222"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Representante:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="repre" placeholder="Ejemplo: Juan Pérez"></td>
+          </tr>
+          <tr>
+            <td><b><font size="4">Correo:&nbsp;&nbsp;</font></b></td>
+            <td><input class="form-control" type="text" name="mail" placeholder="Ejemplo: example@server.com"></td>
           </tr>
         </table>
         <br>
@@ -131,32 +127,32 @@ else{
 
       <?php
       //creacion del  Data Acces Object
-      require '../Model/DAOVehiculo.php';
-      $dao = new DAOVehiculo();
+      require '../Model/DAOProveedor.php';
+      $dao = new DAOProveedor();
       $dao->listar();
 
       function cargar(){
-      	$car = new Vehiculo();
-        $car -> setNumPlaca($_POST["numPlaca"]);
-        $car -> setMarca($_POST["marca"]);
-        $car -> setModelo($_POST["modelo"]);
-        $car -> setAnio($_POST["anio"]);
-        $car -> setColor($_POST["color"]);
-        $car -> setIdProv($_POST["idP"]);
-      	return $car;
+      	$veh = new Proveedor();
+        $veh -> setIdProv($_POST["idProv"]);
+        $veh -> setNombre($_POST["nom"]);
+        $veh -> setTelefono($_POST["tel"]);
+        $veh -> setRepresentante($_POST["repre"]);
+        $veh -> setCorreo($_POST["mail"]);
+
+      	return $veh;
       }
       //que boton? si modificar eliminar o ingresar
       if(isset($_REQUEST['add'])){
       	$dao->insertar(cargar());
-        echo '<script language="javascript">location.href = "mantenimientoVehiculos.php";</script>';
+        echo '<script language="javascript">location.href = "mantenimientoProveedor.php";</script>';
       }
       if(isset($_REQUEST['del'])){
       	$dao->eliminar(cargar());
-        echo '<script language="javascript">location.href = "mantenimientoVehiculos.php";</script>';
+        echo '<script language="javascript">location.href = "mantenimientoProveedor.php";</script>';
       }
       if(isset($_REQUEST['mod'])){
       	$dao->modificar(cargar());
-        echo '<script language="javascript">location.href = "mantenimientoVehiculos.php";</script>';
+        echo '<script language="javascript">location.href = "mantenimientoProveedor.php";</script>';
       }
       if(isset($_REQUEST['buscar'])){
       	$dao->buscar($_POST["buscar"]);

@@ -16,7 +16,7 @@ class DAOProveedor{
         $rep = $obj -> getRepresentante();
         $mail = $obj -> getCorreo();
 
-        $sql = "insert into proveedor values ($id,'$nom','$tel','$rep','$mail');";
+        $sql = "insert into proveedor values ('$id','$nom','$tel','$rep','$mail');";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{
@@ -27,9 +27,9 @@ class DAOProveedor{
 
         }
     public function eliminar($obj){
-        $c = Conexion::conexion();
+        $c = conexion();
         $id = $obj -> getIdProv();
-        $sql = "delete from proveedor where idProv = $id";
+        $sql = "delete from proveedor where idProv = '$id'";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{
@@ -45,7 +45,7 @@ class DAOProveedor{
       $rep = $obj -> getRepresentante();
       $mail = $obj -> getCorreo();
 
-        $sql = "update proveedor set nombre='$nom',telefono='$tel',representante='$rep',correo='$mail' where idProv= $id";
+        $sql = "update proveedor set nombre='$nom',telefono='$tel',representante='$rep',correo='$mail' where idProv= '$id'";
         if (!$c -> query($sql)){
             print "Error al ejecutar la consulta";
         }else{
@@ -55,7 +55,7 @@ class DAOProveedor{
         mysqli_close($c);
     }
     public function listar(){
-		$c = conectar();
+		$c = conexion();
 		$sql="select * from proveedor";
 		$resultado = $c->query($sql);
 		//mostrar resultado bonito
@@ -82,7 +82,7 @@ class DAOProveedor{
 		print "</tr>";
 	}
         public function buscar($obj){
-		$c=conectar();
+		$c=conexion();
 		$sql="select * from proveedor where nombre like '$obj%'";
 		$resultado = $c->query($sql);
 		if(!$c->query($sql)){

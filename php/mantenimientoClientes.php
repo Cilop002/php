@@ -59,6 +59,8 @@ else{
                 <span class="glyphicon icon-briefcase"></span></a></li>
                 <li><a href="#">Mant. Clientes
                   <span class="glyphicon icon-envelop"></span></a></li>
+                  <li><a href="mantenimientoProveedor.php">Mant. Proveedor
+                    <span class="glyphicon icon-user"></span></a></li>
               <li><a><?php echo $_SESSION['us'];?>
                 <span class="glyphicon icon-user-plus"></span></a></li>
               <li><a href="Cerrarsesion.php">Cerrar Sesion
@@ -153,7 +155,7 @@ else{
         $client -> setPass($_POST["pass"]);
         $client -> setTipo($_POST["tipo"]);
       	return $client;
-        
+
       }
       //que boton? si modificar eliminar o ingresar
       if(isset($_REQUEST['add'])){
