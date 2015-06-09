@@ -45,7 +45,7 @@ class DAOCliente {
         $name = $obj -> getNombre();
         $edad = $obj -> getEdad();
         $tel = $obj -> getTelefono();
-        $mail = $obj -> geCorreo();
+        $mail = $obj -> getCorreo();
         $pass = $obj -> getPass();
         $nac = $obj -> getNacionalidad();
         $tipo = $obj -> getTipo();
@@ -60,7 +60,7 @@ class DAOCliente {
         mysqli_close($c);
     }
     public function listar(){
-		$c = conectar();
+		$c = conexion();
 		$sql="select * from cliente";
 		$resultado = $c->query($sql);
 		//mostrar resultado bonito

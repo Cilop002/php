@@ -47,7 +47,7 @@ else{
             <span class="icon-bar app-bar"></span>
             <span class="icon-bar app-bar"></span>
           </button>
-          <a class="navbar-brand link-personalizado" href="vistaAdmin.php">Proj Renta</a>
+          <a class="navbar-brand link-personalizado" href="#">Proj Renta</a>
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
@@ -75,7 +75,7 @@ else{
           <p>Renta de vehículos en linea</p>
         <div>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-      </section>
+
     <div class="container">
       <!-- Example row of columns -->
       <form action="#" method="POST">
@@ -83,7 +83,7 @@ else{
           <tr>
             <td>Busqueda por Marca:</td>
             <td><input class="form-control" type="text" name="$busqueda" placeholder="Ejemplo: Toyota"></td>
-            <td><input type="submit" name="buscar" value="Buscar" class="btn1"></td>
+            <td><input type="submit" name="buscar" value="Buscar" class="btn btn-primary"></td>
           </tr>
         </table>
         <br><br>
@@ -116,9 +116,9 @@ else{
         <br>
         <table align="center">
           <tr>
-            <td><input type="submit" name="add" value="Agregar" class="btn1"></td>
-            <td><input type="submit" name="del" value="Eliminar" class="btn1"></td>
-            <td><input type="submit" name="mod" value="Modificar" class="btn1"></td>
+            <td><input type="submit" name="add" value="Agregar" class="btn btn-primary"></td>
+            <td><input type="submit" name="del" value="Eliminar" class="btn btn-primary"></td>
+            <td><input type="submit" name="mod" value="Modificar" class="btn btn-primary"></td>
           </tr>
         </table>
       </form>
