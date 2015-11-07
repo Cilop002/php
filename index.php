@@ -129,16 +129,19 @@
       <div class="row">
         <div class="col-md-4 justificado">
           <h2>Curso de JSP</h2>
+          <img src="img/jsp.jpg" width="360" height="240"/>
           <p>En este curso, aprendera a desarrollar paginas web haciendo uso del lenguaje HTML con codigo JAVA Embebido, desde aplicaciones sencillas hasta conexion con Bases de datos, utilizando MySQL.</p>
           <p><a class="btn btn-default" href="#" role="button">Ver Detalles &raquo;</a></p>
         </div>
         <div class="col-md-4 justificado">
           <h2>Curso de Microsoft Office</h2>
+          <img src="img/office.jpg" width="360" height="240"/>
           <p>Curso diseñado para todas aquellas personas que deseen llevar su conociemiento del software de oficina mas utilizado mundialmente a un nivel avanzado, permitiendo crear documentos, presentaciones u hojas de calculo con mejor calidad.</p>
           <p><a class="btn btn-default" href="#" role="button">Ver Detalles &raquo;</a></p>
        </div>
         <div class="col-md-4 justificado">
-          <h2>Curso de Adobe Photoshop</h2>
+          <h2>Curso de Photoshop</h2>
+          <img src="img/photoshop.jpg" width="360" height="240"/>
           <p>Si estas cansado de editar tus imagenes con paint y no tienes conocimientos de edición con photoshop, este curso te ayudará a conocer éste programa y a utilizar todas las herramientas que posee para la edicion de fotografias e imágenes en general.</p>
           <p><a class="btn btn-default" href="#" role="button">Ver Detalles &raquo;</a></p>
         </div>
