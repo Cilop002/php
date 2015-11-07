@@ -36,7 +36,11 @@
             <span class="icon-bar app-bar"></span>
             <span class="icon-bar app-bar"></span>
           </button>
-          <a class="navbar-brand link-personalizado" href="#">TecnoInfo</a><img src="img/logo.PNG" width="70" height="50">
+          <a class="navbar-brand link-personalizado" href="#">TecnoInfo</a>
+          <map name="mapa1">
+            <area shape="rect" coords="0,0,70,50" href="index.php" />
+          </map>
+          <img src="img/logo.PNG" width="70" height="50" usemap="#mapa1">
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
@@ -124,26 +128,26 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Curso de JSP</h2>
+          <p>En este curso, aprendera a desarrollar paginas web haciendo uso del lenguaje HTML con codigo JAVA Embebido, desde aplicaciones sencillas hasta conexion con Bases de datos, utilizando MySQL.</p>
+          <p><a class="btn btn-default" href="#" role="button">Ver Detalles &raquo;</a></p>
         </div>
         <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Curso de Microsoft Office</h2>
+          <p>Curso diseñado para todas aquellas personas que deseen llevar su conociemiento del software de oficina mas utilizado mundialmente a un nivel avanzado, permitiendo crear documentos, presentaciones u hojas de calculo con mejor calidad.</p>
+          <p><a class="btn btn-default" href="#" role="button">Ver Detalles &raquo;</a></p>
        </div>
         <div class="col-md-4 justificado">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Curso de Adobe Photoshop</h2>
+          <p>Si estas cansado de editar tus imagenes con paint y no tienes conocimientos de edición con photoshop, este curso te ayudará a conocer éste programa y a utilizar todas las herramientas que posee para la edicion de fotografias e imágenes en general.</p>
+          <p><a class="btn btn-default" href="#" role="button">Ver Detalles &raquo;</a></p>
         </div>
       </div>
 
       <hr>
 
       <footer>
-        <p>&copy; BRBJ S.A. de C.V. 2015</p>
+        <p>&copy; TecnoInfo S.A. de C.V. 2015</p>
       </footer>
 
 
