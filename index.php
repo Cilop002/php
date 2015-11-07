@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Project Renta de Vehiculos</title>
+        <title>TecnoInfo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -36,16 +36,14 @@
             <span class="icon-bar app-bar"></span>
             <span class="icon-bar app-bar"></span>
           </button>
-          <a class="navbar-brand link-personalizado" href="#">Proj Renta</a>
+          <a class="navbar-brand link-personalizado" href="#">TecnoInfo</a><img src="img/logo.PNG" width="70" height="50">
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-1">
-              <li><a href="php/vistaVehiculos.php">Vechículos
+              <li><a href="php/vistaVehiculos.php"> Cursos
                 <span class="glyphicon icon-automobile"></span></a></li>
-              <li><a href="php/vistaDescuentos.php">Descuentos
+              <li><a href="php/vistaDescuentos.php">Ofertas
                 <span class="glyphicon icon-gift"></span></a></li>
-              <li><a href="php/vistaPaquetes.php">Paquetes
-                <span class="glyphicon icon-briefcase"></span></a></li>
               <li><a href="php/vistaContacto.php">Contactenos
                 <span class="glyphicon icon-envelop"></span></a></li>
               <li><a href="php/frmRegistro.php" data-toggle="modal">Registro
@@ -53,15 +51,13 @@
               <li><a href="php/Session.php">Ingresar
                 <span class="glyphicon icon-users"></span></a></li>
             </ul>
-
           </div><!--/.navbar-collapse -->
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
       <section class="app-principal">
         <div class="container">
-          <h1>Proj Renta</h1>
-          <p>Renta de vehículos en linea</p>
+          <h1>Bienvenidos a TecnoInfo</h1>
         <div>
 
           <!--Modal de Ingreso-->
